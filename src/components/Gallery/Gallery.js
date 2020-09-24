@@ -71,6 +71,9 @@ const Gallery = () => {
       .then((data) => setPhotos(data))
       .then(() => {
         setIsLoaded(true);
+      })
+      .catch((err) => {
+        throw (err);
       });
   }, []);
 
