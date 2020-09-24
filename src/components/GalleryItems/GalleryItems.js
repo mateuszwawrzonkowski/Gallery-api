@@ -20,10 +20,18 @@ const Photo = styled.img`
     :hover{
         filter: brightness(120%);
     }
-    
+
     @media (min-width: 768px) {
+        height: 300px;
+        width: 300px;
+    }
+    @media (min-width: 1280px) {
         height: 400px;
         width: 400px;
+    }
+    @media (min-width: 1800px) {
+        height: 500px;
+        width: 500px;
     }
 `;
 
