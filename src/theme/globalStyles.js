@@ -22,6 +22,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: "Montserrat", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(140deg, rgba(120,161,187,1) 0%, rgba(244,223,231,1) 100%);
     }
 `;
 
