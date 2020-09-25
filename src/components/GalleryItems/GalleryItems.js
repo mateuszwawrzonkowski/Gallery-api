@@ -58,7 +58,7 @@ const GalleryItems = ({ data, start, end }) => {
           rel="noopener noreferrer"
         >
           <Photo
-            src={`http://source.unsplash.com/${slug(item.url)}`}
+            src={`https://source.unsplash.com/${slug(item.url)}`}
           />
         </a>
       ))}
