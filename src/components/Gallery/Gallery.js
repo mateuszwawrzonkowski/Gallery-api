@@ -51,13 +51,14 @@ const Gallery = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   function reducer(state, action) {
+    const { start, end, page } = state;
     switch (action.type) {
       case 'next':
-        if (state.end >= photos.length) { return { start: 0, end: 3, page: 1 }; }
-        return { start: state.start + 3, end: state.end + 3, page: state.page + 1 };
+        if (end >= photos.length) { return initialState; }
+        return { start: start + 3, end: end + 3, page: page + 1 };
       case 'previous':
-        if (state.start <= 0) { return { start: 27, end: 30, page: 10 }; }
-        return { start: state.start - 3, end: state.end - 3, page: state.page - 1 };
+        if (start <= 0) { return { start: 27, end: 30, page: 10 }; }
+        return { start: start - 3, end: end - 3, page: page - 1 };
       default:
         throw new Error('Reducer action.type error');
     }

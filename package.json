@@ -1,6 +1,6 @@
 {
-  "homepage": " https://mateuszwawrzonkowski.github.io/task-higher",
-  "name": "task-higher",
+  "homepage": " https://mateuszwawrzonkowski.github.io/gallery-api",
+  "name": "gallery-api",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

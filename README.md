@@ -1,4 +1,4 @@
-# Recruitment task
+# Easy gallery using api
 
 **Technologies**
 
@@ -8,3 +8,4 @@
 - JavaScript ES6
 - React
 - Eslint
+- API
